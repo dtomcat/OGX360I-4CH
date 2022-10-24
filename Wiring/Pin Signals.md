@@ -1,5 +1,5 @@
 Main Board (J1):
-| MB Pin| PU Pin| Notes |
+| Pin | Signal | Notes |
 | :---: | :---: | :---: |
 |  1 | P4_USB_DP_OUT | D+ signal from Xbox Motherboard for P4 controller port, or D+ from Programming Board |
 |  2 | FUSED +5V | 500 mA fuse for External USB |
@@ -21,3 +21,16 @@ Main Board (J1):
 | 18 | GND | Common Ground |
 | 19 | +5V | From Controller connector on Xbox motherboard |
 | 20 | GND | Common Ground |
+
+
+MiddleMan Boards (both) (J1):
+| Pin | Signal P1/P2 | Signal P3/P4 | Notes |
+| :---: | :---: | :---: |
+|  1 | +5V | +5V | +5V from Xbox Motherboard to provide power to OGX360i |
+|  2 | GND | GND | GND to Motherboard |
+|  3 | P1_USB_DN | P3_USB_DN | D- from P1/P3 front panel and Xbox Motherboard to OGX360i |
+|  4 | P1_USB_DP | P3_USB_DP | D+ from P1/P3 Front panel to OGX360i |
+|  5 | P1_USB_DP_OUT | P3_USB_DP_OUT | D+ from OGX360i to P1/P3 Xbox Motherboard |
+|  6 | P2_USB_DN | P4_USB_DN | D- from P2/P4 front panel and Xbox Motherboard to OGX360i |
+|  7 | P2_USB_DP | P4_USB_DP | D+ from P2/P4 Front panel to OGX360i |
+|  8 | P2_USB_DP_OUT | P4_USB_DP_OUT | D+ from OGX360i to P1/P3 Xbox Motherboard |
