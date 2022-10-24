@@ -34,3 +34,14 @@ MiddleMan Boards (both) (J1):
 |  6 | P2_USB_DN | P4_USB_DN | D- from P2/P4 front panel and Xbox Motherboard to OGX360i |
 |  7 | P2_USB_DP | P4_USB_DP | D+ from P2/P4 Front panel to OGX360i |
 |  8 | P2_USB_DP_OUT | P4_USB_DP_OUT | D+ from OGX360i to P1/P3 Xbox Motherboard |
+
+
+External USB Board (J2):
+| Pin | Signal | Notes |
+| :---: | :---: | :---: |
+|  1 | +5V | Fused +5V from OGX360i |
+|  2 | USB_DN | D- From USB Port to OGX360i |
+|  3 | USB_DP | D+ From USB Port to OGX360i |
+|  4 | +3v3 | NOT CONNECTED   No Longer used... |
+|  5 | OGX_DISABLE | Signal to OGX360i to enable/disable mod |
+|  6 | GND | Common Ground |
