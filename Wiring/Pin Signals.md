@@ -23,6 +23,8 @@ Main Board (J1):
 | 20 | GND | Common Ground |
 
 
+
+
 MiddleMan Boards (both) (J1):
 | Pin | Signal P1/P2 | Signal P3/P4 | Notes |
 | :---: | :---: | :---: | :---: |
@@ -36,6 +38,8 @@ MiddleMan Boards (both) (J1):
 |  8 | P2_USB_DP_OUT | P4_USB_DP_OUT | D+ from OGX360i to P1/P3 Xbox Motherboard |
 
 
+
+
 External USB Board (J2):
 | Pin | Signal | Notes |
 | :---: | :---: | :---: |
@@ -45,3 +49,31 @@ External USB Board (J2):
 |  4 | +3v3 | NOT CONNECTED   No Longer used... |
 |  5 | OGX_DISABLE | Signal to OGX360i to enable/disable mod |
 |  6 | GND | Common Ground |
+
+
+
+
+*OPTIONAL*
+Programming Board (J1):
+| Pin | Signal | Notes |
+| :---: | :---: | :---: |
+|  1 | P4_USB_DP | D+ signal from USB to P4 ATMEGA32U4 Chip |
+|  2 | +5V | +5V from USB to power OGX360i |
+|  3 | P3_USB_DP | D+ signal from USB to P3 ATMEGA32U4 Chip |
+|  4 | OGX_DISABLE | Signal from switch to activate/deactive OGX360 mod |
+|  5 | P2_USB_DP | D+ signal from USB to P2 ATMEGA32U4 Chip |
+|  6 | P4_USB_DN | D- signal from USB to P4 ATMEGA32U4 Chip |
+|  7 | P1_USB_DP | D+ signal from USB to P1 ATMEGA32U4 Chip |
+|  8 | P3_USB_DN | D- signal from USB to P3 ATMEGA32U4 Chip |
+|  9 | NC | NOT CONNECTED |
+| 10 | P2_USB_DN | D- signal from USB to P2 ATMEGA32U4 Chip |
+| 11 | NC | NOT CONNECTED |
+| 12 | P1_USB_DN | D- signal from USB to P1 ATMEGA32U4 Chip |
+| 13 | NC | NOT CONNECTED |
+| 14 | NC | NOT CONNECTED |
+| 15 | NC | NOT CONNECTED |
+| 16 | NC | NOT CONNECTED |
+| 17 | NC | NOT CONNECTED |
+| 18 | GND | Common Ground |
+| 19 | NC | NOT CONNECTED |
+| 20 | GND | Common Ground |
