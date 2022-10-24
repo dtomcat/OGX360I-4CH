@@ -25,7 +25,7 @@ Main Board (J1):
 
 MiddleMan Boards (both) (J1):
 | Pin | Signal P1/P2 | Signal P3/P4 | Notes |
-| :---: | :---: | :---: |
+| :---: | :---: | :---: | :---: |
 |  1 | +5V | +5V | +5V from Xbox Motherboard to provide power to OGX360i |
 |  2 | GND | GND | GND to Motherboard |
 |  3 | P1_USB_DN | P3_USB_DN | D- from P1/P3 front panel and Xbox Motherboard to OGX360i |
