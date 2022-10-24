@@ -1,23 +1,23 @@
 Main Board (J1):
 | MB Pin| PU Pin| Notes |
 | :---: | :---: | :---: |
-|  1 | P4_USB_DP_OUT | |
+|  1 | P4_USB_DP_OUT | D+ signal from Xbox Motherboard for P4 controller port, or D+ from Programming Board |
 |  2 | FUSED +5V | 500 mA fuse for External USB |
-|  3 | P3_USB_DP_OUT |  |
+|  3 | P3_USB_DP_OUT | D+ signal from Xbox Motherboard for P3 controller port, or D+ from Programming Board |
 |  4 | OGX_DISABLE | Signal to activate/deactive OGX360 mod |
-|  5 | P2_USB_DP_OUT |  |
-|  6 | P4_USB_DN |  |
-|  7 | P1_USB_DP_OUT |  |
-|  8 | P3_USB_DN |  |
-|  9 | P4_USB_DP_IN |  |
-| 10 | P2_USB_DN |  |
-| 11 | P3_USB_DP_IN |  |
-| 12 | P1_USB_DN |  |
-| 13 | P2_USB_DP_IN |  |
+|  5 | P2_USB_DP_OUT | D+ signal from Xbox Motherboard for P2 controller port, or D+ from Programming Board |
+|  6 | P4_USB_DN | D- signal from Xbox Motherboard for P4 controller port, or D- from Programming Board |
+|  7 | P1_USB_DP_OUT | D+ signal from Xbox Motherboard for P1 controller port, or D+ from Programming Board |
+|  8 | P3_USB_DN | D- signal from Xbox Motherboard for P3 controller port, or D- from Programming Board |
+|  9 | P4_USB_DP_IN | D+ signal from OGX360 to P4 controller port |
+| 10 | P2_USB_DN | D- signal from Xbox Motherboard for P2 controller port, or D- from Programming Board |
+| 11 | P3_USB_DP_IN | D+ signal from OGX360 to P3 controller port |
+| 12 | P1_USB_DN | D- signal from Xbox Motherboard for P1 controller port, or D- from Programming Board |
+| 13 | P2_USB_DP_IN | D+ signal from OGX360 to P2 controller port |
 | 14 | USB_DP | D+ Signal from Programming Board (not external USB board) |
-| 15 | P1_USB_DP_IN |  |
+| 15 | P1_USB_DP_IN | D+ signal from OGX360 to P1 controller port |
 | 16 | USB_DN | D- Signal from Programming Board (not external USB board) |
 | 17 | +5V | From Controller connector on Xbox motherboard |
-| 18 | GND |  |
+| 18 | GND | Common Ground |
 | 19 | +5V | From Controller connector on Xbox motherboard |
-| 20 | GND |  |
+| 20 | GND | Common Ground |
