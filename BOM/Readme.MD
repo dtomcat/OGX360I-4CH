@@ -7,7 +7,7 @@ Things not in the BOM you will need:
 - 30 awg wire (again silicon)
 - Pin headers (1x3 and 2x4s)
 - Crimpers for the different crimp pins
-- solder and Iron
+- solder and Iron/Hot Air Station
 - Lots of patience!
 
 Optional but helpful:
